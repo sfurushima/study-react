@@ -1,4 +1,8 @@
 # 環境設定
+## ブランチ構成
+main...masterブランチ（派生ブランチの元となるブランチ）
+└ feature/...勉強ごとにブランチ作成を行う。
+
 ## 使用するソフトウェア
 - Chrome - ブラウザ
 https://www.google.com/intl/ja/chrome/
