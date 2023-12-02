@@ -1,4 +1,5 @@
 import { List } from "./List";
+import "./Child.css";
 
 const Child = () => {
   return (
