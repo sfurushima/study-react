@@ -1,6 +1,10 @@
 { /* ↓↓↓ Childコンポーネントに移動 */ }
 const Child = () => {
-  return (<h3>Child Component</h3>)
+  return (
+    <div className="component">
+      <h3>Child Component</h3>
+    </div>
+  );
 }
 
 export default Child;
