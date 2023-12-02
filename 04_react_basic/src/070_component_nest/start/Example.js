@@ -1,19 +1,7 @@
-import "./Example.css";
+import Child from "./component/Child";
 
 const Example = () => {
-  return (
-    <div className="component">
-      <h3>Hello Component</h3>
-      {/* // ul>li{item-$}*5のタブで表現できる */}
-      <ul>
-        <li>item-1</li>
-        <li>item-2</li>
-        <li>item-3</li>
-        <li>item-4</li>
-        <li>item-5</li>
-      </ul>
-    </div>
-  );
+  return <Child />;
 };
 
 export default Example;
