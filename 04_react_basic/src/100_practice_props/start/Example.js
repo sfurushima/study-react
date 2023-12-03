@@ -17,7 +17,7 @@ const Example = () => {
         country={profile[0].country}
       />
       <Profile {...profile[1]} />
-      <Profile />
+      <Profile {...profile[2]} />
     </div>
   );
 };
